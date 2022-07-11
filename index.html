@@ -9,6 +9,52 @@
     <title>rock-paper-scissors</title>
 </head>
 <body>
-
+    <div id="container">
+        <div id="header">
+            <h1>Rock Paper Scissors</h1>
+        </div>
+        <div>
+            <h2 id="results">
+                Choose your weapon! First to 5 Wins!
+            </h2>
+        </div>
+        <div id="buttons">
+            <div id="the-end">
+                <p id="winner"></p>
+            </div>
+            <button id="rock" class="hover">
+                <img src="/rock.png" alt="">
+            </button>
+            <button id="paper" class="hover">
+                <img src="/paper.png" alt="">
+            </button>
+            <button id="scissors" class="hover">
+                <img src="/scissors.png" alt="">
+            </button>
+        </div>
+        <div id="reset">
+            <button class="reset"><strong>RESET</strong></button>
+        </div>
+        <div id="boards">
+            <div id="computer" class="board">
+                <h3>Computer</h3>
+                <ul id="computer-choices">
+                </ul>
+            </div>
+            <div id="score">
+                <p id="computer-score">0</p>
+                <p>-</p>
+                <p id="player-score">0</p>
+            </div>
+            <div id="player" class="board">
+                <h3>Player</h3>
+                <ul id="player-choices">
+                </ul>
+            </div>
+        </div>
+    </div>
+        <footer id="footer">
+            CREATED BY <a href="https://github.com/jaysan0/rock-paper-scissors" target="_blank">JAYSAN0</a>
+        </footer>
 </body>
 </html>
